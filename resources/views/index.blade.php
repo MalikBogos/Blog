@@ -1,10 +1,3 @@
-<?php
- 
-
-?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,6 +57,8 @@
             border-radius: 36px;
             border: none;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+            text-decoration: none;
+            color: black;
         }
 
         .Login:hover {
@@ -79,6 +74,8 @@
             border-radius: 36px;
             border: none;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+            text-decoration: none;
+            color: black;
         }
 
         .Signup:hover {
@@ -105,7 +102,6 @@
             font-size: 16px;
             background-color: white;
             border: none;
-            margin-right: 20px;
         }
 
         .Contact-button {
@@ -125,6 +121,7 @@
         .news-container {
             display: flex;
         }
+
         .news {
             display: flex;
             justify-content: space-between;
@@ -148,8 +145,8 @@
         </div>
 
         <div class="header-right">
-            <button class="Login">Login</button>
-            <button class="Signup">Sign up</button>
+            <a href="Login.php" class="Login">Login</a>
+            <a href="SignUp.php" class="Signup">Sign up</a>
         </div>
     </header>
 
