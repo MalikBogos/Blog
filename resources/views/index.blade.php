@@ -163,11 +163,11 @@
 
     <footer class="Footer">
         <div class="Footer-div">
-            <a class="FAQ-button" href="faq.htm">
+            <a class="FAQ-button" href="faq.php">
                 FAQ
             </a>
 
-            <a class="Contact-button" href="contact.html">
+            <a class="Contact-button" href="contact.php">
                 Contact
             </a>
 
